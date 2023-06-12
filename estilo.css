@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(161, 123, 248);
+}
+/* Navbar */
+
+.nome {
+    text-align: center;
+    line-height: 150px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(61, 104, 212);
+    color: rgb(255, 255, 255);
+    position: sticky;
+    top: 0;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    margin: 30px 0px;
+}
+.navbar ul li{
+    font-family: century;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 11px 27px;
+    transition: all .5s ease;
+}
+.navbar ul li a:hover{
+    background-color: rgb(246, 246, 246);
+    color:rgb(80, 142, 248);
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+}
+.textosobre {
+    text-align: center;
+    line-height: 30px;
+    font-size: larger;
+    width: 400px;
+    height: 60px;
+    margin left:30px ;
+}
+.contato{
+    text-align: center;
+}
+.portifolio{
+    text-align: center;
+    line-height: 80px;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.imagem{
+    text-align: center;
+    line-height: 1000px;
+    align-items: center;
+    float: center;
+}
